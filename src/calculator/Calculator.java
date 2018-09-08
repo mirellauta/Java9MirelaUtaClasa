@@ -10,22 +10,22 @@ package calculator;
  * @author Mirela
  */
 public class Calculator {
-    static int rezulat =0;
-    public static int aduna(int a, int b){
+    static int rezultat =0;
+    public  int aduna(int a, int b){
     rezultat=a+b;
     return rezultat;
     }
     
-    public static int scade(int a, int b){
+    public  int scade(int a, int b){
     rezultat=a-b;
     return rezultat;
     }
     
-     public static int inmulteste(int a, int b){
+     public  int inmulteste(int a, int b){
     rezultat=a*b;
     return rezultat;
     }
-     public static int imparte(int a, int b){
+     public  int imparte(int a, int b){
     rezultat=a/b;
     return rezultat;
     }
