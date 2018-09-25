@@ -75,6 +75,7 @@ public  void setColor(Color newColor){
 public  void setSpeed(short newSpeed){ 
         speed = newSpeed; 
     } 
+
     /** 
      The method increase actual speed of Car until final speed specified. 
      * @param newSpeed is new speed  
@@ -87,16 +88,8 @@ public  void increaseSpeed(short newSpeed){
             decreaseSpeed(newSpeed); 
         } 
     } 
-public  void decreaseSalePrice(short newSalePrice){ 
-        if(newSalePrice < saleprice){ 
-            saleprice = newSalePrice; 
-    } 
-}
-public  void increaseRentPrice(short newRentPrice){ 
-        if(newRentPrice < rentprice){ 
-            rentprice = newRentPrice; 
-    } 
-}
+
+
 public  void decreaseSpeed(short newSpeed){ 
         if(newSpeed < speed){ 
             speed = newSpeed; 
@@ -125,13 +118,16 @@ public int getDailyRentPrice() {
        return(rentPrice);
     }
 
-public  void increasePrice(short newPrice){ 
+public  void increaseRentPrice(short newPrice){ 
         if(newPrice > rentPrice){ 
             rentPrice = newPrice; 
         } 
-        else if (newPrice < rentPrice){ 
-            decreaseSpeed(newPrice); 
-        } 
-    } 
 
+    } 
+public  void decreaseSalePrice(short newSalePrice){ 
+        if(newSalePrice < salePrice){ 
+            salePrice = newSalePrice; 
+        } 
+
+    } 
 }

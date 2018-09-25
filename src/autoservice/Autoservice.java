@@ -34,7 +34,7 @@ static Car m1,m2,m3;
     // THIRD CAR  
     m3= new Car("MASERATI", (short)130, Car.Color.RED);
     m3.setRentPrice(2500);
-    m3.setSalePrice(150000);
+    m3.setSalePrice(15000);
   //  5.f Increase renting price of third car with 15 and decrease its sale price with 1200
     m3.increaseRentPrice((short) (m3.getRentPrice()+15));
     m3.decreaseSalePrice((short) (m3.getSalePrice()-1200));
