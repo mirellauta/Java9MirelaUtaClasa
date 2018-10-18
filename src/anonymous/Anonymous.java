@@ -23,6 +23,7 @@ a3= new SpanishGreeting();
 afisezMesaj();
     }
 //
+
     private static void afisezMesaj(){
     a1.greetSomeone("world");
     a2.greetSomeone("tout le monde");
