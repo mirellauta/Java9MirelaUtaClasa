@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  *
  * @author Mirela
  */
-public class DeschideBotepad {
+public class DeschideNotepad {
 
     /**
      * @param args the command line arguments
